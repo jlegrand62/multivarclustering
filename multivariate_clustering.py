@@ -1,22 +1,8 @@
 # -*- python -
 #
-#       OpenAlea.Container
-#
-#       Copyright 2012 INRIA - CIRAD - INRA
-#
 #       File author(s):  Jonathan Legrand <jonathan.legrand@ens-lyon.fr>
-#
-#       Distributed under the Cecill-C License.
-#       See accompanying file LICENSE.txt or copy at
-#           http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
-#
-#       OpenAlea WebSite: http://openalea.gforge.inria.fr
-#
 ################################################################################
 """This module helps to use clustering and standardization methods on graphs."""
-
-__license__ = "Cecill-C"
-__revision__ = ""
 
 import warnings, numpy as np, copy, math, time
 from numpy import ndarray
